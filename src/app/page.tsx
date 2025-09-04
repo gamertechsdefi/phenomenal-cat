@@ -140,7 +140,7 @@ export default function Home() {
               {/* Mint & Freeze Revoked */}
               <div className="relative w-40 h-48 md:w-64 md:h-72 bg-neutral-200 text-black rounded-full border-2 border-black/80 shadow-[8px_8px_0_0_rgba(0,0,0,1)] flex flex-col items-center justify-center rotate-[-6deg] sm:-translate-y-6 lg:translate-y-0">
                 <div className="text-5xl md:text-6xl font-extrabold text-center leading-tight">
-                  18%
+                  23%
                 </div>
                 <div className="text-lg md:text-xl font-extrabold">Liquidity Pool</div>
               </div>
@@ -228,6 +228,86 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="faq" className="bg-white text-black py-20 md:py-24">
+          <div className="max-w-6xl mx-auto px-4">
+            <h3 className="text-center text-4xl md:text-6xl font-extrabold text-blue-900 mb-10">FAQ</h3>
+
+            <div className="space-y-4">
+              {/* Q1 */}
+              <details className="group border-2 border-black/10 rounded-xl p-4 md:p-5 shadow-[6px_6px_0_0_rgba(0,0,0,0.08)] bg-white">
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <span className="text-lg md:text-xl font-bold">What is $PCAT?</span>
+                  <span className="ml-4 shrink-0 rounded-full border-2 border-black bg-cyan-200 w-8 h-8 grid place-items-center shadow-[3px_3px_0_0_rgba(0,0,0,1)] group-open:rotate-45 transition-transform">+</span>
+                </summary>
+                <div className="mt-3 text-sm md:text-base text-gray-700">
+                  $PCAT is a community-first meme token on BNB Chain inspired by the Phenomenal Cat. It blends fun, culture, and utility-driven goals within our growing ecosystem.
+                </div>
+              </details>
+
+              {/* Q2 */}
+              <details className="group border-2 border-black/10 rounded-xl p-4 md:p-5 shadow-[6px_6px_0_0_rgba(0,0,0,0.08)] bg-white">
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <span className="text-lg md:text-xl font-bold">Is $PCAT deflationary or fixed?</span>
+                  <span className="ml-4 shrink-0 rounded-full border-2 border-black bg-cyan-200 w-8 h-8 grid place-items-center shadow-[3px_3px_0_0_rgba(0,0,0,1)] group-open:rotate-45 transition-transform">+</span>
+                </summary>
+                <div className="mt-3 text-sm md:text-base text-gray-700">
+                PCAT is a deflationary cryptocurrency designed with a built-in auto-burn mechanism 
+                to reduce its total supply over time, potentially increasing scarcity and value. 
+                Currently, 17% of the total PCAT supply has been permanently removed from 
+                circulation through burning. Additionally, the token features an automatic 
+                burn mechanism, whereby 1% of every transaction is burned with each trade, 
+                further decreasing the circulating supply and promoting long-term value 
+                appreciation.
+                </div>
+              </details>
+
+              {/* Q2 */}
+              <details className="group border-2 border-black/10 rounded-xl p-4 md:p-5 shadow-[6px_6px_0_0_rgba(0,0,0,0.08)] bg-white">
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <span className="text-lg md:text-xl font-bold">How do I buy $PCAT?</span>
+                  <span className="ml-4 shrink-0 rounded-full border-2 border-black bg-cyan-200 w-8 h-8 grid place-items-center shadow-[3px_3px_0_0_rgba(0,0,0,1)] group-open:rotate-45 transition-transform">+</span>
+                </summary>
+                <div className="mt-3 text-sm md:text-base text-gray-700">
+                  Get BNB in your wallet, then use PancakeSwap to swap BNB for $PCAT. You can follow the steps in the "How to Buy" section above.
+                </div>
+              </details>
+
+              {/* Q3 */}
+              <details className="group border-2 border-black/10 rounded-xl p-4 md:p-5 shadow-[6px_6px_0_0_rgba(0,0,0,0.08)] bg-white">
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <span className="text-lg md:text-xl font-bold">What is the contract address?</span>
+                  <span className="ml-4 shrink-0 rounded-full border-2 border-black bg-cyan-200 w-8 h-8 grid place-items-center shadow-[3px_3px_0_0_rgba(0,0,0,1)] group-open:rotate-45 transition-transform">+</span>
+                </summary>
+                <div className="mt-3 text-sm md:text-base text-gray-700 break-all">
+                  0xFeD56F9Cd29F44e7C61c396DAc95cb3ed33d3546
+                </div>
+              </details>
+
+              {/* Q4 */}
+              <details className="group border-2 border-black/10 rounded-xl p-4 md:p-5 shadow-[6px_6px_0_0_rgba(0,0,0,0.08)] bg-white">
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <span className="text-lg md:text-xl font-bold">Is there a buy/sell tax?</span>
+                  <span className="ml-4 shrink-0 rounded-full border-2 border-black bg-cyan-200 w-8 h-8 grid place-items-center shadow-[3px_3px_0_0_rgba(0,0,0,1)] group-open:rotate-45 transition-transform">+</span>
+                </summary>
+                <div className="mt-3 text-sm md:text-base text-gray-700">
+                  3% Buy and Sell Tax. 1% for more marketing, 1% burns and 1% goes to our liqudity pool
+                </div>
+              </details>
+
+              {/* Q5 */}
+              <details className="group border-2 border-black/10 rounded-xl p-4 md:p-5 shadow-[6px_6px_0_0_rgba(0,0,0,0.08)] bg-white">
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <span className="text-lg md:text-xl font-bold">Where can I track the price?</span>
+                  <span className="ml-4 shrink-0 rounded-full border-2 border-black bg-cyan-200 w-8 h-8 grid place-items-center shadow-[3px_3px_0_0_rgba(0,0,0,1)] group-open:rotate-45 transition-transform">+</span>
+                </summary>
+                <div className="mt-3 text-sm md:text-base text-gray-700">
+                  We are listed on FireScreener. You can check us out on the platform
+                </div>
+              </details>
             </div>
           </div>
         </section>
