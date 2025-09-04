@@ -64,7 +64,9 @@ export default function Home() {
             <div className="text-center md:text-left">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-4">WHAT IS $PCAT?</h2>
               <p className="text-base sm:text-lg text-white/90 mb-6 max-w-prose mx-auto md:mx-0">
-                $PCAT is a meme token designed for community-driven fun and engagement in the Neonverse ecosystem. Built on Binance Smart Chain, $SOPE brings together the vibrance of the crypto meme culture with Neonverse's expanding utilities and features.
+               Phenomal Cat ($PCAT) is a revolutionary cryptocurrency designed to blend community engagement,
+               charitable initiatives, and an educational empowerment within the Blockchain ecosystem. With a 
+               deflationary model, $PCAT aims to create value and encourage beliefs in The Phenomenals
               </p>
 
               {/* Token address + copy */}
