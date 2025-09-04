@@ -272,7 +272,7 @@ export default function Home() {
                   <span className="ml-4 shrink-0 rounded-full border-2 border-black bg-cyan-200 w-8 h-8 grid place-items-center shadow-[3px_3px_0_0_rgba(0,0,0,1)] group-open:rotate-45 transition-transform">+</span>
                 </summary>
                 <div className="mt-3 text-sm md:text-base text-gray-700">
-                  Get BNB in your wallet, then use PancakeSwap to swap BNB for $PCAT. You can follow the steps in the "How to Buy" section above.
+                  Get BNB in your wallet, then use PancakeSwap to swap BNB for $PCAT. You can follow the steps in the &quot;How to Buy&quot; section above.
                 </div>
               </details>
 
