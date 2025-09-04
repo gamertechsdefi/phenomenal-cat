@@ -192,10 +192,10 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
               {/* Step 1 */}
               <div className="rounded-2xl border-2 border-black/20 shadow-[6px_6px_0_0_rgba(0,0,0,0.2)] p-6 md:p-8 bg-blue-900 text-white">
-                <div className="flex items-center gap-4 md:gap-6">
-                  <div className="text-5xl md:text-6xl">🛒</div>
+                <div className="flex flex-col gap-2 md:gap-4">
+                  <div className="text-5xl md:text-6xl"><Image src="/images/bnb.webp" alt="bnb" width={200} height={200} /></div>
                   <div>
-                    <h4 className="text-2xl md:text-3xl font-extrabold">Owning some BNB</h4>
+                    <h4 className="text-2xl md:text-3xl font-extrabold">Get some BNB</h4>
                     <p className="mt-2 text-lg md:text-base">
                     Buy or send some $BNB into your wallet (e.g. MetaMask, TrustWallet)
                     </p>
@@ -205,8 +205,8 @@ export default function Home() {
 
               {/* Step 2 */}
               <div className="rounded-2xl border-2 border-black/20 shadow-[6px_6px_0_0_rgba(0,0,0,0.2)] p-6 md:p-8 bg-blue-900 text-white">
-                <div className="flex items-center gap-4 md:gap-6">
-                  <div className="text-5xl md:text-6xl">👛</div>
+                <div className="flex flex-col gap-2 md:gap-4">
+                  <div className="text-5xl md:text-6xl"><Image src="/images/pancakeswap.webp" alt="pancake" width={200} height={200} /></div>
                   <div>
                     <h4 className="text-2xl md:text-3xl font-extrabold">Go to PancakeSwap</h4>
                     <p className="mt-2 text-lg md:text-base">
@@ -218,8 +218,8 @@ export default function Home() {
 
               {/* Step 3 */}
               <div className="rounded-2xl border-2 border-black/20 shadow-[6px_6px_0_0_rgba(0,0,0,0.2)] p-6 md:p-8 bg-blue-900 text-white">
-                <div className="flex items-center gap-4 md:gap-6">
-                  <div className="text-5xl md:text-6xl">💵</div>
+                <div className="flex flex-col gap-2 md:gap-4">
+                  <div className="text-5xl md:text-6xl"><Image src="/images/pcat-logo.png" alt="pcat" width={200} height={200} /></div>
                   <div>
                     <h4 className="text-2xl md:text-3xl font-extrabold">Swap BNB for PCAT</h4>
                     <p className="mt-2 text-lg md:text-base">
