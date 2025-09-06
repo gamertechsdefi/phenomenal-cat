@@ -26,7 +26,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="relative z-50">
-      <div className="flex justify-between items-center px-4 py-2 bg-blue-200 text-black">
+      <div className="flex justify-between items-center px-4 py-2 bg-black text-white">
         <div className="flex items-center space-x-4">
           <Image src="/images/pcat-logo.png" alt='pcat logo' width={100} height={100} />
           <nav className="hidden md:flex space-x-4">
@@ -61,7 +61,7 @@ const Header: React.FC = () => {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 w-10 h-10 md:w-11 md:h-11 flex items-center justify-center  rounded-full border-2 border-black shadow-[4px_4px_0_0_rgba(0,0,0,1)] hover:-translate-y-[1px] active:translate-y-0 transition-transform text-black"
+                  className="p-2 w-10 h-10 md:w-11 md:h-11 flex items-center justify-center  rounded-full border-2 border-blue-300 shadow-[4px_4px_0_0_rgba(0,0,1,0)] hover:-translate-y-[1px] active:translate-y-0 transition-transform text-white"
                   aria-label={social.label}
                 >
                   <social.icon className="w-5 h-5" />
