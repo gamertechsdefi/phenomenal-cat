@@ -64,9 +64,9 @@ export default function Home() {
             <div className="text-center md:text-left">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-4">WHAT IS $PCAT?</h2>
               <p className="text-base sm:text-lg text-white/90 mb-6 max-w-prose mx-auto md:mx-0">
-               Phenomal Cat ($PCAT) is a revolutionary cryptocurrency designed to blend community engagement,
-               charitable initiatives, and an educational empowerment within the Blockchain ecosystem. With a 
-               deflationary model, $PCAT aims to create value and encourage beliefs in The Phenomenals
+                Phenomal Cat ($PCAT) is a revolutionary cryptocurrency designed to blend community engagement,
+                charitable initiatives, and an educational empowerment within the Blockchain ecosystem. With a
+                deflationary model, $PCAT aims to create value and encourage beliefs in The Phenomenals
               </p>
 
               {/* Token address + copy */}
@@ -182,6 +182,197 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Roadmap */}
+        <section id="roadmap" className="bg-blue-300 text-black py-32">
+          <div className="max-w-6xl mx-auto px-4">
+            <h1 className="text-center text-5xl md:text-7xl font-extrabold text-blue-900 mb-10">Roadmap</h1>
+
+            {/* Mobile: vertical timeline */}
+            <div className="relative md:hidden">
+              {/* vertical dashed line */}
+              <div className="absolute left-1/2 -translate-x-1/2 top-28 bottom-28 border-l-2 border-dashed border-gray-300" aria-hidden="true"></div>
+
+              <div className="space-y-10">
+                {/* Phase 1 */}
+                <div className="relative">
+                  <div className="mx-auto w-full max-w-sm rounded-2xl p-5 bg-neutral-900 text-white">
+                    <div className="flex items-start gap-4">
+                      {/* <span className="shrink-0 w-10 h-10 rounded-full bg-white/20 grid place-items-center backdrop-blur">
+                        <span className="w-4 h-4 rounded-full bg-white"></span>
+                      </span> */}
+                      <div>
+                        <h3 className="text-xl font-extrabold text-blue-300">Q4 2025 ✅</h3>
+                        <ul>
+                          <li>Successful migration to V2</li>
+                          <li>20% Liquidity Pool Addition</li>
+                          <li>17% Initial Burn</li>
+                          <li>Token Distribution to V1 Holders</li>
+                          <li>Firescreener listing completed</li>
+                          <li>Additional 2% Compensation Airdrop to V1 Holders</li>
+                          <li>Strategic Partnership</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  {/* dot connector */}
+                  <div className="absolute left-1/2 -translate-x-1/2 -bottom-6 w-3 h-3 rounded-full bg-black border-2 border-white"></div>
+                </div>
+
+                {/* Phase 2 */}
+                <div className="relative">
+                  <div className="mx-auto w-full max-w-sm rounded-2xl p-5  bg-neutral-900 text-white/80">
+                    <div className="flex items-start gap-4">
+                      <div>
+                        <h3 className="text-xl font-extrabold text-blue-300">Q1 2026</h3>
+                        <ul>
+                          <li> Listing on CoinGecko</li>
+                          <li> Listing with DexTools/DexScreener</li>
+                          <li> Target coverage on reputable Crypto News Tracking & Analytics Platforms</li>
+                          <li> Influencers Marketing Campaigns across Social Medias</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  {/* dot connector */}
+                  <div className="absolute left-1/2 -translate-x-1/2 -bottom-6 w-3 h-3 rounded-full bg-black border-2 border-white"></div>
+                </div>
+
+                {/* Phase 3 */}
+                <div className="relative">
+                  <div className="mx-auto w-full max-w-sm rounded-2xl p-5 shadow-[8px_8px_0_0_rgba(0,0,0,0.08)] bg-gray-900 text-white/80">
+                    <div className="flex items-start gap-4">
+                      <div>
+                        <h3 className="text-xl font-extrabold text-blue-300">Q2 2026</h3>
+                        <ul>
+                          <li>Beta Development of Phenomenals Educational platform</li>
+                          <li>Partnership with First Educational Institute / Brand </li>
+                          <li>1% of Total Supply Burn </li>
+                          <li> Listing on CoinMarketCap</li>
+                          <li>Phenomals Merchandise Store Launch</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Phase 5 */}
+                <div className="relative">
+                  <div className="mx-auto w-full max-w-sm rounded-2xl p-5 shadow-[8px_8px_0_0_rgba(0,0,0,0.08)] bg-gray-900 text-white/80">
+                    <div className="flex items-start gap-4">
+                      <div>
+                        <h3 className="text-xl font-extrabold text-blue-300">Q4 2026</h3>
+                        <ul>
+                          <li>Launch of Phenomenals DAO</li>
+                          <li>Possible Centralized Exchange Listing</li>
+                          <li>New Strategic Partnership with Education Platform / Brand  </li>
+                          <li>Mobile Version Release of Phenomenal Educational Platform</li>
+                          <li>Community & DAO Hangouts</li>
+                          <li>New Roadmap Release</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                 {/* Phase 4 */}
+                 <div className="relative">
+                  <div className="mx-auto w-full max-w-sm rounded-2xl p-5 shadow-[8px_8px_0_0_rgba(0,0,0,0.08)] bg-gray-900 text-white/80">
+                    <div className="flex items-start gap-4">
+                      <div>
+                        <h3 className="text-xl font-extrabold text-blue-300">Q3 2026</h3>
+                        <ul>
+                          <li>Launch of Phenomenals Educational platform</li>
+                          <li>Additional 1% of Total Supply to be burnt </li>
+                          <li>First NFT Collection Release </li>
+                          <li>Upgrades to Phenomenal Educational Platform</li>
+                          <li>New Strategic Partnerships</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Desktop: grid layout, synced with mobile content */}
+            <div className="hidden md:block">
+              <div className="grid grid-cols-3 gap-8 items-start">
+                {/* Q4 2025 */}
+                <div className="col-span-1">
+                  <div className="rounded-2xl p-6 bg-neutral-900 text-white">
+                    <h3 className="text-2xl text-blue-300 font-extrabold">Q4 2025 ✅</h3>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>Successful migration to V2</li>
+                      <li>20% Liquidity Pool Addition</li>
+                      <li>17% Initial Burn</li>
+                      <li>Token Distribution to V1 Holders</li>
+                      <li>Firescreener listing completed</li>
+                      <li>Additional 2% Compensation Airdrop to V1 Holders</li>
+                      <li>Strategic Partnership</li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* Q1 2026 */}
+                <div className="col-span-1 mt-16">
+                  <div className="rounded-2xl p-6 bg-neutral-900 text-white">
+                    <h3 className="text-2xl text-blue-300 font-extrabold">Q1 2026</h3>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>Listing on CoinGecko</li>
+                      <li>Listing with DexTools/DexScreener</li>
+                      <li>Target coverage on major crypto analytics platforms</li>
+                      <li>Influencer marketing campaigns</li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* Q2 2026 */}
+                <div className="col-span-1">
+                  <div className="rounded-2xl p-6 bg-neutral-900 text-white">
+                    <h3 className="text-2xl text-blue-300 font-extrabold">Q2 2026</h3>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>Beta development of Phenomenals educational platform</li>
+                      <li>Partnership with first educational institute/brand</li>
+                      <li>1% of total supply burn</li>
+                      <li>Listing on CoinMarketCap</li>
+                      <li>Phenomenals merchandise store launch</li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* Q3 2026 */}
+                <div className="col-span-1 mt-16">
+                  <div className="rounded-2xl p-6 bg-neutral-900 text-white">
+                    <h3 className="text-2xl text-blue-300 font-extrabold">Q3 2026</h3>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>Launch of Phenomenals educational platform</li>
+                      <li>Additional 1% of total supply to be burnt</li>
+                      <li>First NFT collection release</li>
+                      <li>Upgrades to educational platform</li>
+                      <li>New strategic partnerships</li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* Q4 2026 */}
+                <div className="col-span-1">
+                  <div className="rounded-2xl p-6 bg-neutral-900 text-white">
+                    <h3 className="text-2xl text-blue-300 font-extrabold">Q4 2026</h3>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>Launch of Phenomenals DAO</li>
+                      <li>Possible centralized exchange listing</li>
+                      <li>New partnership with education platform/brand</li>
+                      <li>Mobile version release of educational platform</li>
+                      <li>Community & DAO hangouts</li>
+                      <li>New roadmap release</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="bg-white text-black py-32">
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-10">
@@ -197,7 +388,7 @@ export default function Home() {
                   <div>
                     <h4 className="text-2xl md:text-3xl font-extrabold">Get some BNB</h4>
                     <p className="mt-2 text-lg md:text-base">
-                    Buy or send some $BNB into your wallet (e.g. MetaMask, TrustWallet)
+                      Buy or send some $BNB into your wallet (e.g. MetaMask, TrustWallet)
                     </p>
                   </div>
                 </div>
@@ -210,7 +401,7 @@ export default function Home() {
                   <div>
                     <h4 className="text-2xl md:text-3xl font-extrabold">Go to PancakeSwap</h4>
                     <p className="mt-2 text-lg md:text-base">
-                    Go to the PancakeSwap DEX in the browser. Paste the PCAT contract address in the output field
+                      Go to the PancakeSwap DEX in the browser. Paste the PCAT contract address in the output field
                     </p>
                   </div>
                 </div>
@@ -223,7 +414,7 @@ export default function Home() {
                   <div>
                     <h4 className="text-2xl md:text-3xl font-extrabold">Swap BNB for PCAT</h4>
                     <p className="mt-2 text-lg md:text-base">
-                    Enter the amount of BNB you wish to swap for PCAT and confirm the transaction in your wallet.
+                      Enter the amount of BNB you wish to swap for PCAT and confirm the transaction in your wallet.
                     </p>
                   </div>
                 </div>
@@ -255,13 +446,13 @@ export default function Home() {
                   <span className="ml-4 shrink-0 rounded-full border-2 border-black bg-cyan-200 w-8 h-8 grid place-items-center shadow-[3px_3px_0_0_rgba(0,0,0,1)] group-open:rotate-45 transition-transform">+</span>
                 </summary>
                 <div className="mt-3 text-sm md:text-base text-gray-700">
-                PCAT is a deflationary cryptocurrency designed with a built-in auto-burn mechanism 
-                to reduce its total supply over time, potentially increasing scarcity and value. 
-                Currently, 17% of the total PCAT supply has been permanently removed from 
-                circulation through burning. Additionally, the token features an automatic 
-                burn mechanism, whereby 1% of every transaction is burned with each trade, 
-                further decreasing the circulating supply and promoting long-term value 
-                appreciation.
+                  PCAT is a deflationary cryptocurrency designed with a built-in auto-burn mechanism
+                  to reduce its total supply over time, potentially increasing scarcity and value.
+                  Currently, 17% of the total PCAT supply has been permanently removed from
+                  circulation through burning. Additionally, the token features an automatic
+                  burn mechanism, whereby 1% of every transaction is burned with each trade,
+                  further decreasing the circulating supply and promoting long-term value
+                  appreciation.
                 </div>
               </details>
 
@@ -364,7 +555,7 @@ export default function Home() {
                 aria-label="Twitter"
                 className="p-2 w-10 h-10 md:w-11 md:h-11 flex items-center justify-center bg-cyan-200 rounded-full border-2 border-black shadow-[4px_4px_0_0_rgba(0,0,0,1)] hover:-translate-y-[1px] active:translate-y-0 transition-transform"
               >
-               <FaXTwitter size={25} fill="black" />
+                <FaXTwitter size={25} fill="black" />
               </a>
               <a
                 href="#telegram"
