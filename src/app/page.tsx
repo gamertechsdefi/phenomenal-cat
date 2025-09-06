@@ -382,7 +382,7 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
               {/* Step 1 */}
-              <div className="rounded-2xl border-2 border-black/20 shadow-[6px_6px_0_0_rgba(0,0,0,0.2)] p-6 md:p-8 bg-blue-900 text-white">
+              <div className="rounded-2xl border-2 border-black/20 shadow-[6px_6px_0_0_rgba(0,0,0,0.2)] p-6 md:p-8 bg-black text-white">
                 <div className="flex flex-col gap-2 md:gap-4">
                   <div className="text-5xl md:text-6xl"><Image src="/images/bnb.webp" alt="bnb" width={200} height={200} /></div>
                   <div>
@@ -395,7 +395,7 @@ export default function Home() {
               </div>
 
               {/* Step 2 */}
-              <div className="rounded-2xl border-2 border-black/20 shadow-[6px_6px_0_0_rgba(0,0,0,0.2)] p-6 md:p-8 bg-blue-900 text-white">
+              <div className="rounded-2xl border-2 border-black/20 shadow-[6px_6px_0_0_rgba(0,0,0,0.2)] p-6 md:p-8 bg-black text-white">
                 <div className="flex flex-col gap-2 md:gap-4">
                   <div className="text-5xl md:text-6xl"><Image src="/images/pancakeswap.webp" alt="pancake" width={200} height={200} /></div>
                   <div>
@@ -408,7 +408,7 @@ export default function Home() {
               </div>
 
               {/* Step 3 */}
-              <div className="rounded-2xl border-2 border-black/20 shadow-[6px_6px_0_0_rgba(0,0,0,0.2)] p-6 md:p-8 bg-blue-900 text-white">
+              <div className="rounded-2xl border-2 border-black/20 shadow-[6px_6px_0_0_rgba(0,0,0,0.2)] p-6 md:p-8 bg-black text-white">
                 <div className="flex flex-col gap-2 md:gap-4">
                   <div className="text-5xl md:text-6xl"><Image src="/images/pcat-logo.png" alt="pcat" width={200} height={200} /></div>
                   <div>
