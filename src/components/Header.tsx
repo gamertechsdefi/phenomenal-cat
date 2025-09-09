@@ -34,7 +34,7 @@ const Header: React.FC = () => {
               <a 
                 key={item.href}
                 href={item.href}
-                className="hover:text-blue-600 transition-colors"
+                className="hover:text-yellow-400 transition-colors"
               >
                 {item.label}
               </a>
@@ -61,7 +61,7 @@ const Header: React.FC = () => {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 w-10 h-10 md:w-11 md:h-11 flex items-center justify-center  rounded-full border-2 border-blue-300 shadow-[4px_4px_0_0_rgba(0,0,1,0)] hover:-translate-y-[1px] active:translate-y-0 transition-transform text-white"
+                  className="p-2 w-10 h-10 md:w-11 md:h-11 flex items-center justify-center  rounded-full border-2 border-yellow-300 shadow-[4px_4px_0_0_rgba(0,0,1,0)] hover:-translate-y-[1px] active:translate-y-0 transition-transform text-white"
                   aria-label={social.label}
                 >
                   <social.icon className="w-5 h-5" />
@@ -80,7 +80,7 @@ const Header: React.FC = () => {
       >
         {/* Backdrop - clickable to close menu */}
         <div 
-          className="absolute inset-0 bg-blue-700 backdrop-blur-sm"
+          className="absolute inset-0 bg-yellow-400 backdrop-blur-sm"
           onClick={toggleMenu}
           aria-label="Close menu"
         />
@@ -93,7 +93,7 @@ const Header: React.FC = () => {
             <a
               key={item.href}
               href={item.href}
-              className="text-white text-2xl hover:text-blue-400 transition-colors"
+              className="text-white text-2xl hover:text-yellow-400 transition-colors"
               onClick={toggleMenu}
             >
               {item.label}
