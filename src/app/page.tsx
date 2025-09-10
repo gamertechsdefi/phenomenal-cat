@@ -43,17 +43,15 @@ export default function Home() {
           </div>
 
           {/* Bottom Icons */}
-          <div className="relative z-10 w-full max-w-lg mb-16">
+          <div className="relative z-10 w-full max-w-lg mb-36">
             <div className="flex justify-center space-x-8">
-              <a href="#" className="bg-gray-800/80 p-4 rounded-full hover:bg-gray-700 transition-all">
-                <Image src="/images/firescreener-logo.png" alt="Window" width={28} height={28} />
+              <a href="https://pancakeswap.finance/swap?chain=bsc&chainOut=bsc&inputCurrency=BNB&outputCurrency=0xFeD56F9Cd29F44e7C61c396DAc95cb3ed33d3546&exactAmount=&exactField=INPUT" className="bg-gray-800/80 p-4 rounded-full hover:bg-gray-700 transition-all">
+               <button className="bg-yellow-400 hover:bg-yellow-500 active:translate-y-[1px] rounded-full px-4 py-2 border-2 border-black/80 shadow-[3px_3px_0_0_rgba(0,0,0,1)] transition-colors">Buy Now</button>
               </a>
-              <a href="#" className="bg-gray-800/80 p-4 rounded-full hover:bg-gray-700 transition-all">
-                <Image src="/images/bscscan.png" alt="File" width={28} height={28} />
+              <a href="https://www.firescreener.com/bsc/pcat" className="bg-gray-800/80 p-4 rounded-full hover:bg-gray-700 transition-all">
+                <button className="bg-neutral-200 hover:bg-neutral-300 text-black active:translate-y-[1px] rounded-full px-4 py-2 border-2 border-black/80 shadow-[3px_3px_0_0_rgba(0,0,0,1)] transition-colors">Buy Now</button>
               </a>
-              <a href="#" className="bg-gray-800/80 p-4 rounded-full hover:bg-gray-700 transition-all">
-                <Image src="/images/dexscreener-b.png" alt="Globe" width={28} height={28} />
-              </a>
+
             </div>
           </div>
         </section>
@@ -118,68 +116,48 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-neutral-900 text-white py-24 px-8">
+        <section className=" flex flex-col items-center bg-neutral-900 text-white py-24 px-8">
           <div className="max-w-6xl mx-auto">
             <h1 className="text-center text-6xl md:text-8xl font-bold text-yellow-400 mb-10">
               Tokenomics
             </h1>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 place-items-center">
+            <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
               {/* 0/0 Tax */}
-              <div className="relative w-40 h-48 md:w-64 md:h-72 bg-neutral-200 text-black rounded-full border-2 border-black/80 shadow-[8px_8px_0_0_rgba(0,0,0,1)] flex flex-col items-center justify-center rotate-[-8deg]">
-                <div className="text-5xl md:text-6xl font-extrabold leading-none">700T</div>
-                <div className="text-xl md:text-2xl font-extrabold">Total Supply</div>
+              <div className="relative shadow-[8px_8px_0_0_rgba(0,0,0,1)] flex flex-col items-center justify-center rotate-[-8deg]">
+                <h1 className="text-5xl md:text-6xl font-extrabold leading-none">700T</h1>
+                <h1 className="text-xl md:text-2xl font-extrabold">Total Supply</h1>
               </div>
 
-              {/* LP Burnt */}
-              <div className="relative w-40 h-48 md:w-64 md:h-72 bg-neutral-200 text-black rounded-full border-2 border-black/80 shadow-[8px_8px_0_0_rgba(0,0,0,1)] flex flex-col items-center justify-center rotate-[8deg] sm:translate-y-6 lg:translate-y-0">
-                <div className="text-5xl md:text-6xl font-extrabold leading-none">17%</div>
-                <div className="text-xl md:text-2xl font-extrabold">Initial Burn</div>
+              <div className="relative shadow-[8px_8px_0_0_rgba(0,0,0,1)] flex flex-col items-center justify-center rotate-[-8deg]">
+                <h1 className="text-5xl md:text-6xl font-extrabold leading-none">17%</h1>
+                <h1 className="text-xl md:text-2xl font-extrabold">Initial Burn</h1>
               </div>
 
-              {/* Mint & Freeze Revoked */}
-              <div className="relative w-40 h-48 md:w-64 md:h-72 bg-neutral-200 text-black rounded-full border-2 border-black/80 shadow-[8px_8px_0_0_rgba(0,0,0,1)] flex flex-col items-center justify-center rotate-[-6deg] sm:-translate-y-6 lg:translate-y-0">
-                <div className="text-5xl md:text-6xl font-extrabold text-center leading-tight">
-                  23%
-                </div>
-                <div className="text-lg md:text-xl font-extrabold">Liquidity Pool</div>
+              <div className="relative shadow-[8px_8px_0_0_rgba(0,0,0,1)] flex flex-col items-center justify-center rotate-[-8deg]">
+                <h1 className="text-5xl md:text-6xl font-extrabold leading-none">3%</h1>
+                <h1 className="text-xl md:text-2xl font-extrabold">Buy/Sell Tax</h1>
               </div>
-
-              {/* Total Supply */}
-              <div className="relative w-40 h-48 md:w-64 md:h-72 bg-neutral-200 text-black rounded-full border-2 border-black/80 shadow-[8px_8px_0_0_rgba(0,0,0,1)] flex flex-col items-center justify-center rotate-[12deg]">
-                <div className="text-5xl md:text-6xl font-extrabold leading-none">10%</div>
-                <div className="text-xl md:text-2xl font-extrabold text-center leading-tight">
-                  Treasury (Locked)
-                </div>
-              </div>
-
-              <div className="relative w-40 h-48 md:w-64 md:h-72 bg-neutral-200 text-black rounded-full border-2 border-black/80 shadow-[8px_8px_0_0_rgba(0,0,0,1)] flex flex-col items-center justify-center rotate-[-8deg]">
-                <div className="text-5xl md:text-6xl font-extrabold leading-none">10%</div>
-                <div className="text-xl md:text-2xl font-extrabold">Developments</div>
-              </div>
-
-              {/* LP Burnt */}
-              <div className="relative w-40 h-48 md:w-64 md:h-72 bg-neutral-200 text-black rounded-full border-2 border-black/80 shadow-[8px_8px_0_0_rgba(0,0,0,1)] flex flex-col items-center justify-center rotate-[8deg] sm:translate-y-6 lg:translate-y-0">
-                <div className="text-5xl md:text-6xl font-extrabold leading-none">10%</div>
-                <div className="text-xl md:text-2xl font-extrabold">Sponsorships</div>
-              </div>
-
-              {/* Mint & Freeze Revoked */}
-              <div className="relative w-40 h-48 md:w-64 md:h-72 bg-neutral-200 text-black rounded-full border-2 border-black/80 shadow-[8px_8px_0_0_rgba(0,0,0,1)] flex flex-col items-center justify-center rotate-[-6deg] sm:-translate-y-6 lg:translate-y-0">
-                <div className="text-5xl md:text-6xl font-extrabold leading-none">20%</div>
-                <div className="text-xl md:text-2xl font-extrabold">Marketing</div>
-              </div>
-
-              {/* Total Supply */}
-              <div className="relative w-40 h-48 md:w-64 md:h-72 bg-neutral-200 text-black rounded-full border-2 border-black/80 shadow-[8px_8px_0_0_rgba(0,0,0,1)] flex flex-col items-center justify-center rotate-[12deg]">
-                <div className="text-5xl md:text-6xl font-extrabold leading-none">10%</div>
-                <div className="text-xl md:text-2xl font-extrabold text-center leading-tight">
-                  CEX Listings
-                </div>
-              </div>
-
             </div>
+
+            <div className="relative z-10 w-full max-w-lg mb-16">
+              <div className="flex justify-center space-x-8">
+                <a href="https://www.firescreener.com/bsc/pcat" className="bg-gray-800/80 p-4 rounded-full hover:bg-gray-700 transition-all">
+                  <Image src="/images/firescreener-logo.png" alt="Window" width={28} height={28} />
+                </a>
+                <a href="https://bscscan.com/token/0xFeD56F9Cd29F44e7C61c396DAc95cb3ed33d3546" className="bg-gray-800/80 p-4 rounded-full hover:bg-gray-700 transition-all">
+                  <Image src="/images/bscscan.png" alt="File" width={28} height={28} />
+                </a>
+                <a href="https://dexscreener.com/bsc/0x585c490f214393084b64e07db0ee0f992582c7d3" className="bg-gray-800/80 p-4 rounded-full hover:bg-gray-700 transition-all">
+                  <Image src="/images/dexscreener-b.png" alt="Globe" width={28} height={28} />
+                </a>
+              </div>
+            </div>
+
+
           </div>
+
+
         </section>
 
         {/* Roadmap */}
@@ -274,8 +252,8 @@ export default function Home() {
                   </div>
                 </div>
 
-                 {/* Phase 4 */}
-                 <div className="relative">
+                {/* Phase 4 */}
+                <div className="relative">
                   <div className="mx-auto w-full max-w-sm rounded-2xl p-5 shadow-[8px_8px_0_0_rgba(0,0,0,0.08)] bg-gray-900 text-white/80">
                     <div className="flex items-start gap-4">
                       <div>
