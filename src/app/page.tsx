@@ -186,8 +186,10 @@ export default function Home() {
                           <li>17% Initial Burn</li>
                           <li>Token Distribution to V1 Holders</li>
                           <li>Firescreener listing completed</li>
+                          <li>Dexscreener listing completed</li>
                           <li>Additional 2% Compensation Airdrop to V1 Holders</li>
                           <li>Strategic Partnership</li>
+                          <li>Listing on CoinGecko</li>
                         </ul>
                       </div>
                     </div>
@@ -203,8 +205,8 @@ export default function Home() {
                       <div>
                         <h3 className="text-xl font-extrabold text-yellow-400">Q1 2026</h3>
                         <ul>
-                          <li> Listing on CoinGecko</li>
-                          <li> Listing with DexTools/DexScreener</li>
+                          <li> Educational Platfom Ideation</li>
+                          <li>Community Focused Campaigns</li>
                           <li> Target coverage on reputable Crypto News Tracking & Analytics Platforms</li>
                           <li> Influencers Marketing Campaigns across Social Medias</li>
                         </ul>
@@ -285,6 +287,8 @@ export default function Home() {
                       <li>17% Initial Burn</li>
                       <li>Token Distribution to V1 Holders</li>
                       <li>Firescreener listing completed</li>
+                      <li>Dexscreener listing completed</li>
+                      <li>Listing on CoinGecko</li>
                       <li>Additional 2% Compensation Airdrop to V1 Holders</li>
                       <li>Strategic Partnership</li>
                     </ul>
@@ -297,6 +301,8 @@ export default function Home() {
                     <h3 className="text-2xl text-yellow-400 font-extrabold">Q1 2026</h3>
                     <ul className="mt-2 space-y-1 text-sm">
                       <li>Listing on CoinGecko</li>
+                      <li>Educational Platform Ideation</li>
+                      <li>Community Focused Campaigns</li>
                       <li>Listing with DexTools/DexScreener</li>
                       <li>Target coverage on major crypto analytics platforms</li>
                       <li>Influencer marketing campaigns</li>
